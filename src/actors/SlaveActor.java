@@ -17,6 +17,13 @@ public class SlaveActor extends AbstractActor {
 		}).build();
 	}
 
+	/**
+	 * Compte le nombre d'occurences d'un caractère dans une partie de fichier
+	 * 
+	 * @param message le message contenant la partie du fichier à traiter et le caractère à compter
+	 * 
+	 * @return le nombre d'occurences du caractère
+	 */
 	private CountOver compterCharacteres(FilePartCounter message) {
 		BufferedReader reader = null; 
 		CountOver co = new CountOver();

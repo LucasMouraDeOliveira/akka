@@ -5,6 +5,12 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Implémentation basique d'un compteur de caractères dans un fichier (un seul thread qui lit un fichier en entier).
+ * 
+ * @author Lucas Moura de Oliveira
+ *
+ */
 public class OneThreadCharCounter implements CharCounter {
 
 	@Override
